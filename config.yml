@@ -121,20 +121,20 @@ users:
       # 任务类型（收集：0、签到：1、查寝：2）
       type: 1
       #username 学号或者工号
-      username: ''
+      username: '1192501006'
       #password 密码
-      password: ''
+      password: 'vgx7rsft'
       #address 地址，定位信息
-      address: ''
+      address: '江苏省南京市栖霞区神农路'
       #sendKey 当sendType为0时代表邮箱，当sendType为1时代表接收消息的QQ号码，当sendType为2时代表接收消息的pushplus token
-      sendKey: ''
+      sendKey: '2695458608@qq.com'
       #school 学校全称
-      schoolName: 武汉船舶职业技术学院
+      schoolName: 南京特殊教育师范学院
       # 附上经纬度查询地址（请自行选择自己的学校地址，address，lon，lat都要填查询到的）：http://api.map.baidu.com/lbsapi/getpoint/index.html
       #lon 经度
-      lon: 114.244845
+      lon: 118.882921
       #lat 纬度
-      lat: 30.574166
+      lat: 31.96934
       #abnormalReason 反馈信息（这个一般不用配置，但是不能删除，删除会报错）
       abnormalReason: ''
       #photo 签到照片，不需要可不填，或者直接删除
@@ -148,10 +148,13 @@ users:
       # 表单信息
       forms:
         - form:
-            title: 今天你的体温是多少？
-            value: 37.2℃及以下
+            title: 你今天的体温？（请选择）
+            value: 37.3℃及以下
         - form:
-            title: 今天你的身体状况是？
+            title: 今天具体体温是多少？（在其他项中填写）
+            value: 其它，36.2℃
+        - form:
+            title: 你今天的身体状况？
             value: 健康
   # 第四个用户配置
   # 以下配置为查寝
